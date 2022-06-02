@@ -1,1 +1,17 @@
-
+<?xml version="1.0"?>
+<MyBug = "Bug 900" BugID ="900">
+ <Title>Widgets created through "desktop settings" are similar, but display different information</Title>
+  <Severity>Trivial</Severity>
+  <Priority>Low</Priority>
+  <Environment>Samsung galaxy S20(SM-G980F/DS), Android 12(One UI 4.1), firmware v.G980FXXUEFVDB</Environment>
+  <Precondition>Install the app "AndroidGridTest" on your phone</Precondition>
+  <STR>
+    <Str1>Touch and hold your finger on the "desktop" (Longtap)</Str1>
+    <Str2>Select the "Widgets" section</Str2>
+    <Str3>From the list of installed programs, select "AndroidGridTest"</Str3>
+    <Str4>From the list of widgets in this section, select any and click "add"</Str4>
+    <Str5>Repeat the procedure, create several different widgets</Str5>
+    <Str6>Stretch the created widgets by length and width</Str6>
+  </STR>
+  <AR>Some stretched widgets show 4 cryptocurrencies, others 5 cryptocurrencies</AR>
+  <ER>All widgets show the same number of cryptocurrencies</ER>
