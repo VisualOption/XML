@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<MySkills = "Skills">
+<MySkills>
 <Skill1>DLC and STLC</Skill>
 <Skill2>Client-server architecture</Skill2>
 <Skill3>HTTP methods</Skill3>
